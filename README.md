@@ -28,9 +28,9 @@ Whether it’s live events, on-demand media, or adaptive streaming, the world of
   - Adaptive Streaming for Audio: To address varying network conditions, Netflix employs adaptive streaming for audio. Just like adaptive streaming adjusts video quality based on bandwidth, it dynamically adjusts audio quality during playback1.
     
   - Formats Supported:
-    -- 5.1 Surround Audio: Netflix started streaming 5.1 surround audio in 2010.
-    -- Dolby Atmos: In 2016, Netflix introduced Dolby Atmos for an immersive audio experience.
-    -- Studio Quality Sound: The goal is to bring studio-quality sound to members worldwide, even if they don’t have a state-of-the-art home theater system.
+    * 5.1 Surround Audio: Netflix started streaming 5.1 surround audio in 2010.
+    * Dolby Atmos: In 2016, Netflix introduced Dolby Atmos for an immersive audio experience.
+    * Studio Quality Sound: The goal is to bring studio-quality sound to members worldwide, even if they don’t have a state-of-the-art home theater system.
     
 2. Combining Audio and Video:
   - Essence of Storytelling: Audio and video components combine to evoke the essence of storytelling. From violin melodies to thunderous sound effects, they work together to create emotional impact.
@@ -42,24 +42,24 @@ Whether it’s live events, on-demand media, or adaptive streaming, the world of
 # How we use HLS in it and give them support?
 
 - What is HLS?
-  -- HLS stands for HTTP Live Streaming.
-  -- It is a media streaming protocol designed to deliver audio-visual content to viewers over the internet.
-  -- Created by Apple, HLS facilitates content transportation from media servers to viewer screens, including mobile devices, desktops, tablets, and smart TVs.
-  -- It is widely used for distributing both live and on-demand media files.
-  -- For anyone targeting Apple devices, HLS is the go-to option. In fact, it’s mandatory for App Store apps offering video content longer than 10 minutes or heavier than 5MB.
-  -- HLS dynamically adapts to network conditions, ensuring excellent viewing experiences across devices and playback platforms.
-  -- Despite its Apple origins, HLS has become the most preferred protocol for distributing video content across various platforms and browsers.
+  * HLS stands for HTTP Live Streaming.
+  * It is a media streaming protocol designed to deliver audio-visual content to viewers over the internet.
+  * Created by Apple, HLS facilitates content transportation from media servers to viewer screens, including mobile devices, desktops, tablets, and smart TVs.
+  * It is widely used for distributing both live and on-demand media files.
+  * For anyone targeting Apple devices, HLS is the go-to option. In fact, it’s mandatory for App Store apps offering video content longer than 10 minutes or heavier than 5MB.
+  * HLS dynamically adapts to network conditions, ensuring excellent viewing experiences across devices and playback platforms.
+  * Despite its Apple origins, HLS has become the most preferred protocol for distributing video content across various platforms and browsers.
   
 - How Does HLS Work?
-  -- Segmented Delivery: HLS breaks video content into small segments, typically between 2 to 10 seconds in length.
-  -- These segments are delivered to the viewer’s device via HTTP requests.
-  -- The video player on the device then reassembles these segments to play the video seamlessly.
-  -- Adaptive bitrate streaming is a key feature of HLS. It adjusts streams based on bandwidth fluctuations, ensuring uninterrupted playback for viewers.
+  * Segmented Delivery: HLS breaks video content into small segments, typically between 2 to 10 seconds in length.
+  * These segments are delivered to the viewer’s device via HTTP requests.
+  * The video player on the device then reassembles these segments to play the video seamlessly.
+  * Adaptive bitrate streaming is a key feature of HLS. It adjusts streams based on bandwidth fluctuations, ensuring uninterrupted playback for viewers.
   
 - Broad Support and Industry Standard:
-  -- HLS enjoys broad support among most streaming and distribution platforms.
-  -- It allows you to distribute content across geographies, making it ideal for streaming video to large audiences.
-  -- Since HLS is an industry standard, it can be played on Mac, Android, Microsoft, and Linux devices, making it popular for over-the-web playback.
+  * HLS enjoys broad support among most streaming and distribution platforms.
+  * It allows you to distribute content across geographies, making it ideal for streaming video to large audiences.
+  * Since HLS is an industry standard, it can be played on Mac, Android, Microsoft, and Linux devices, making it popular for over-the-web playback.
 
 # How we convert videos in 720p and 360p?
 
